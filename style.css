@@ -1,0 +1,50 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: #5986ff;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#container div {
+    position: absolute;
+}
+
+#fullscreen {
+    padding: 10px;
+    background-color: #ccc;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#fullscreen:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#camera {
+    margin: auto;
+    height: 400px;
+    overflow: hidden;
+}
+
+#coins {
+    position: absolute;
+    font-weight: bold;
+    right: 10px;
+    top: 10px;
+    min-width: 100px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid #333;
+    opacity: .8;
+    border-radius: 5px;
+    background-color: #fff;
+}
